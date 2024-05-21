@@ -29,8 +29,6 @@ jobs:
           west build -p always -b native_sim app
 
       - name: Twister
-        working-directory: app
-        shell: bash
         run: |
           west twister -p native_sim -T app/tests/ -v --inline-logs --integration
     
