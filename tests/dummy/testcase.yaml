@@ -1,0 +1,8 @@
+tests:
+  hello.dummy_test:
+    #build_only: true
+    platform_allow:
+      - native_sim
+    integration_platforms:
+      - native_sim
+    tags: dummy_test
