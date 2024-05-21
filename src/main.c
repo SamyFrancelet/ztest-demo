@@ -10,7 +10,7 @@ int main(void)
 
     while (1) {
         LOG_INF("Hello world !");
-        k_sleep(K_MSEC(100));
+        k_sleep(K_MSEC(1000));
     }
 
     return 0;
